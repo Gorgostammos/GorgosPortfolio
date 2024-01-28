@@ -56,6 +56,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 body {
@@ -74,7 +75,7 @@ body {
 
 
 p {
-  color: #2e2e2e;
+  color: white;
   margin-bottom: 20px;
 }
 
@@ -115,7 +116,7 @@ p {
 /* animations */
 @keyframes revealBlock {
   100% {
-    color: #0f0f0f;
+    color:white;
   }
 }
 
@@ -144,12 +145,6 @@ p {
 
 
 
-
-
-
-
-
-
 .abs-site-link {
   position: fixed;
   bottom: 20px;
@@ -170,8 +165,6 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-   
-    background-color: black;
    
   }
 
