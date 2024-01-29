@@ -205,7 +205,7 @@ p {
 
 
 
-  main#kontaktside{
+/*  main#kontaktside{
     display: flex;
     grid-area: main;
     flex-wrap: wrap;
@@ -215,7 +215,7 @@ p {
     margin-top: 10px;
     margin-bottom: 10px;
     flex-direction: column;
-  }
+  }*/
 
   .snarvei {
     padding: 1rem;
@@ -231,16 +231,15 @@ p {
 }
 
   .Fordside {
-    width: 50%;
-    height: 600px;
-    padding: 0.4rem;
-    flex-grow: 1;
-    margin: 10px;
-    margin-left: 25px;
-    margin-right: -12px;
-    background-color: black;
-    display: inline-block;
-}
+  
+      width: 50%;
+      padding: 0.4rem;
+      flex-grow: 1;
+      margin: 10px;
+      margin-left: 25px;
+      background-color: #3b3535;
+  }
+
  
 .innhold {
   text-align: center;
@@ -424,38 +423,26 @@ article img{
 
 article h3 {
   text-align: center;
-  margin-top: -5px;
   font-size: 25px;
   font-weight: bold;
   color: white;
+  width: 50%;
 }
 
- .Fordside p{
- font-family: Arial, Helvetica, sans-serif;
- font-size: 17px;
- font-weight: 100;
- flex-flow: nowrap;
- color: white;
- width: 50%;
- 
-}
-
-#intro {
-  display: grid;
-  background: beige;
-  padding: 10px;
-  margin-top: 10px;
-  width: 70%;
-  text-align-last: center;
+.Fordside p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 100;
+  flex-flow: nowrap;
+  color: white;
+  width: 50%;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 25px;
-  outline: auto;
+  padding-top: 10px;
 }
+ 
 
-#intro p{
-  font-size: 15px;
-}
 
 
 footer{
