@@ -566,6 +566,7 @@ nav img {
   text-decoration: none;
   font-size: 17px;
   transition: 0.5s;
+  text-transform: uppercase;
 }
 
 .topnav a:hover {
