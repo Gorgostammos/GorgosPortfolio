@@ -371,21 +371,7 @@ h3
 
   }
 
-  article {
-    /*  leverage cascade for cross-browser gradients  */
-    background: radial-gradient(
-      hsl(100 100% 60%), 
-      hsl(200 100% 60%) 
-    ) fixed;
-    background: conic-gradient(
-      hsl(100 100% 60%), 
-      hsl(200 100% 60%), 
-      hsl(100 100% 60%) 
-    ) fixed;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: center;
-  } 
+  
 
 
  /* block-$ */
@@ -552,11 +538,7 @@ main article a {
   padding-right: 11px;
 }
  
- main a:hover{
-   color: #00039E;
-   transform: none;
-   font-size: 15px;
- }
+
 
 section {
   font-size: 13px;
