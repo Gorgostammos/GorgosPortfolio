@@ -157,7 +157,6 @@ p {
 
   header {
     grid-area: header;
-    
     height: 350px;
     background-position: center;
     background-repeat: no-repeat;
@@ -180,7 +179,6 @@ p {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-
 
 
 /*  main#kontaktside{
@@ -257,8 +255,6 @@ article h3 {
   padding-top: 10px;
 }
  
-
-
 
 footer{
 	grid-area: footer;
@@ -372,7 +368,6 @@ h3
   }
 
   
-
 
  /* block-$ */
 .block-effect {
