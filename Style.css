@@ -87,16 +87,12 @@ p {
 
 .block-reveal {
   --t: calc(var(--td) + var(--d));
-
   color: transparent;
   padding: 4px;
-
   position: relative;
   overflow: hidden;
-
   animation: revealBlock 0s var(--t) forwards;
-
-  font-size: 95px;
+  font-size: 82px;
 }
 
 .block-reveal {
