@@ -99,6 +99,15 @@ p {
   font-size: 95px;
 }
 
+.block-reveal {
+  --t: calc(var(--td) + var(--d));
+  --td: 1s; /* Eksempel på varighet */
+  --d: 0.5s; /* Eksempel på forsinkelse */
+  animation: revealBlock 0s var(--t) forwards;
+}
+
+
+
 .block-reveal::after {
   content: '';
 
