@@ -21,8 +21,8 @@ html{
 body {
   font-family: Arial;
   margin: 0;
-   
   }
+
 /* reset */
 *,
 *::before,
@@ -30,7 +30,6 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 body {
@@ -64,8 +63,6 @@ p {
 
 .block-reveal {
   --t: calc(var(--td) + var(--d));
-  --td: 1s; /* Eksempel på varighet */
-  --d: 0.5s; /* Eksempel på forsinkelse */
   animation: revealBlock 0s var(--t) forwards;
 }
 
@@ -116,7 +113,7 @@ p {
 
   header {
     grid-area: header;
-    height: 350px;
+    height: 625px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
