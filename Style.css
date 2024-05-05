@@ -1,29 +1,7 @@
-/*h3 {
-    width: 20%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-size: larger;
-    font-style: italic;
-    font-family: cursive;
-    font-weight: bold;
-    border-bottom: 1px black solid;
-}
-
-
-p {
-    width: 20%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-size: larger;
-    font-style: italic;
-    font-family: cursive;
-    font-weight: bold;
-    padding-bottom: 10px;
-    border-bottom: 1px black solid;
-}*/
-
+<<<<<<< HEAD
+ NJTU  IWTI  GZUH  AU2T 
+ JVSW  UMJT  HAYD  E4CI 
+=======
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @font-face {
   font-family: 'my-font';
@@ -47,8 +25,8 @@ html{
 body {
   font-family: Arial;
   margin: 0;
-   
   }
+
 /* reset */
 *,
 *::before,
@@ -56,7 +34,6 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 body {
@@ -64,21 +41,14 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-
   min-height: 100vh;
-  
-
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
-
-
 
 p {
   color: white;
   margin-bottom: 20px;
 }
-
 
 /* block-$ */
 .block-effect {
@@ -87,33 +57,30 @@ p {
 
 .block-reveal {
   --t: calc(var(--td) + var(--d));
-
   color: transparent;
   padding: 4px;
-
   position: relative;
   overflow: hidden;
-
   animation: revealBlock 0s var(--t) forwards;
+  font-size: 72px;
+}
 
-  font-size: 95px;
+.block-reveal {
+  --t: calc(var(--td) + var(--d));
+  animation: revealBlock 0s var(--t) forwards;
 }
 
 .block-reveal::after {
   content: '';
-
   width: 0%;
   height: 100%;
   padding-bottom: 4px;
-
   position: absolute;
   top: 0;
   left: 0;
-
   background: var(--bc);
   animation: revealingIn var(--td) var(--d) forwards, revealingOut var(--td) var(--t) forwards;
 }
-
 
 /* animations */
 @keyframes revealBlock {
@@ -123,28 +90,22 @@ p {
 }
 
 @keyframes revealingIn {
-
   0% {
     width: 0;
   }
-
   100% {
     width: 100%;
   }
 }
 
 @keyframes revealingOut {
-
   0% {
     transform: translateX(0);
   }
-
   100% {
     transform: translateX(100%);
   }
-
 }
-
 
 .abs-site-link {
   position: fixed;
@@ -154,11 +115,9 @@ p {
   font-size: 1px;
 }
 
-
   header {
     grid-area: header;
-    
-    height: 350px;
+    height: 630px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -169,7 +128,6 @@ p {
     align-items: center;
   }
   
-
   main{
     display: flex;
     grid-area: main;
@@ -180,8 +138,6 @@ p {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-
-
 
 /*  main#kontaktside{
     display: flex;
@@ -196,7 +152,6 @@ p {
   }*/
 
   .Fordside {
-  
       width: 50%;
       padding: 0.4rem;
       flex-grow: 1;
@@ -220,7 +175,6 @@ p {
     -webkit-text-fill-color: transparent;
     text-align: center;
   } 
-
 
 main article a{
  font-size: 15px;
@@ -257,16 +211,12 @@ article h3 {
   padding-top: 10px;
 }
  
-
-
-
 footer{
 	grid-area: footer;
 	background-color: #343434;
 	color: #fff;
 	padding: 1rem;
   display: flex;
-    
 }
 
 footer p{
@@ -290,6 +240,7 @@ footer .fa{
   font-size: 20px;
 
 } 
+
 .fa-facebook {
   background: #3B5998;
   color: white;
@@ -305,11 +256,9 @@ footer .fa{
   color: white;
 }
 
-
 nav{
   grid-area: nav;
 } 
-
 
 #grid-container{
   display: grid;
@@ -355,8 +304,6 @@ nav{
 h3
 { margin-left: auto; width: 75%; border-bottom: 2px black solid; margin-right: auto; }
 
-
-
 @media only screen and (max-width: 600px){
   #grid-container{
     display: flow-root;
@@ -371,9 +318,6 @@ h3
 
   }
 
-  
-
-
  /* block-$ */
 .block-effect {
   font-size: calc(8px + 6vw);
@@ -381,29 +325,22 @@ h3
 
 .block-reveal {
   --t: calc(var(--td) + var(--d));
-
   color: transparent;
   padding: 4px;
-
   position: relative;
   overflow: hidden;
-
   animation: revealBlock 0s var(--t) forwards;
-
   font-size: 23px;
 }
 
 .block-reveal::after {
   content: '';
-
   width: 0%;
   height: 100%;
   padding-bottom: 4px;
-
   position: absolute;
   top: 0;
   left: 0;
-
   background: var(--bc);
   animation: revealingIn var(--td) var(--d) forwards, revealingOut var(--td) var(--t) forwards;
 }
@@ -436,9 +373,7 @@ h3
   100% {
     transform: translateX(100%);
   }
-
 }
-
 
   main{
     grid-area: main;
@@ -452,8 +387,6 @@ h3
 
 }
 
-
-
 footer {
   grid-area: footer;
   background-color: #343434;
@@ -466,8 +399,6 @@ footer {
 footer section {
   width: 100%;
 }
-
-
 
 /* img.Analyse { 
   width: 80%;
@@ -484,11 +415,9 @@ header{
 
 }
 
-
 h1.block-effect {
   font-size: 30px;
 }
-
 
 .Fordside {
   width: 30%;
@@ -515,8 +444,6 @@ h1.block-effect {
   
 }
 
-
-
 header h1{
 font-size: 15px;
 color: white;
@@ -538,18 +465,13 @@ main article a {
   padding-right: 11px;
 }
  
-
-
 section {
   font-size: 13px;
   width: 100%;
 }
 .topnav a {
-  transition: none;
-  
+  transition: none; 
 }
-
-
 }
 
 @media screen and (max-width: 600px){
@@ -560,8 +482,6 @@ section {
     color: orange;
     margin-top: 3px; 
     }
-    
-    
   }
   
   @media screen and (max-width: 600px) {
@@ -570,7 +490,6 @@ section {
       position: absolute;
       right: 0;
       top: 0;
-     
     }
     .topnav.responsive a {
       float: none;
@@ -578,8 +497,7 @@ section {
       text-align: left;
       
     }
-  
-  
+
   }
 
 
@@ -590,3 +508,4 @@ section {
 
 
 
+>>>>>>> e362ee563add1edc3bcfc8d6b1c483afaa63aee1
