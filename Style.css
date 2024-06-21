@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
- NJTU  IWTI  GZUH  AU2T 
- JVSW  UMJT  HAYD  E4CI 
-=======
-=======
->>>>>>> 5aa28199579f8e387a9b728f2f74ccd23160ede8
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @font-face {
   font-family: 'my-font';
@@ -65,11 +59,7 @@ p {
   position: relative;
   overflow: hidden;
   animation: revealBlock 0s var(--t) forwards;
-<<<<<<< HEAD
-  font-size: 72px;
-=======
-  font-size: 52px;
->>>>>>> 5aa28199579f8e387a9b728f2f74ccd23160ede8
+
 }
 
 .block-reveal {
@@ -124,12 +114,7 @@ p {
 
   header {
     grid-area: header;
-<<<<<<< HEAD
     height: 630px;
-=======
-    height: 300px;
->>>>>>> 5aa28199579f8e387a9b728f2f74ccd23160ede8
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -514,10 +499,3 @@ section {
 
 
 
-
-
-
-
-
-
->>>>>>> e362ee563add1edc3bcfc8d6b1c483afaa63aee1
