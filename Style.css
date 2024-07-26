@@ -214,6 +214,7 @@ footer{
 	color: #fff;
 	padding: 1rem;
   display: flex;
+  margin-top: 60px;
 }
 
 footer p{
@@ -427,6 +428,7 @@ h1.block-effect {
   margin-right: auto;
   background-color: #3b3535;
   padding-top: 60px;
+  margin: auto;
   
 }
 .Fordside p {
