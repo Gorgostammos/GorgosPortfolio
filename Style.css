@@ -135,31 +135,14 @@ h1.block-effect {
     grid-area: main;
     flex-wrap: wrap;
     gap: 0.5rem;
-    margin-left: 5px;
-    margin-right: 25px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-   height: 700px;
+   height: 800px;
   }
-
-/*  main#kontaktside{
-    display: flex;
-    grid-area: main;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-left: 5px;
-    margin-right: 25px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    flex-direction: column;
-  }*/
 
   .Fordside {
       width: 50%;
       padding: 0.4rem;
       flex-grow: 1;
-      margin: 10px;
-      margin-left: 25px;
+      align-content: center;
       background-color: #d81212;
   }
 
@@ -215,14 +198,58 @@ article h3 {
   margin-right: auto;
   padding-top: 10px;
 }
+
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
  
 footer{
-	grid-area: footer;
-	background-color: #343434;
-	color: #fff;
-	padding: 1rem;
+  grid-area: footer;
+  background-color: #343434;
+  color: #fff;
+  padding: 20px;
   display: flex;
-  margin-top: 60px;
+  margin-top: 375px;
 }
 
 footer p{
@@ -400,7 +427,7 @@ footer {
   padding: 1rem;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 250px;
+  margin-top: 1600px;
     
 }
 
@@ -408,13 +435,6 @@ footer section {
   width: 100%;
 }
 
-/* img.Analyse { 
-  width: 80%;
-  margin: auto;
-  margin-right: auto;
-  padding: 25px;
-}
-*/
 
 header{
   height: 150px;
