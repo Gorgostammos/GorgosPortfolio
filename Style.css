@@ -347,6 +347,8 @@ h3
   }
 
  /* block-$ */
+
+/* block-$ */
 .block-effect {
   font-size: calc(8px + 6vw);
 }
@@ -358,7 +360,18 @@ h3
   position: relative;
   overflow: hidden;
   animation: revealBlock 0s var(--t) forwards;
-  font-size: 23px;
+
+}
+
+.block-reveal {
+  --t: calc(var(--td) + var(--d));
+  animation: revealBlock 0s var(--t) forwards;
+}
+
+h1.block-effect {
+  font-size: 60px;
+  display: flex
+;
 }
 
 .block-reveal::after {
@@ -373,7 +386,6 @@ h3
   animation: revealingIn var(--td) var(--d) forwards, revealingOut var(--td) var(--t) forwards;
 }
 
-
 /* animations */
 @keyframes revealBlock {
   100% {
@@ -382,26 +394,36 @@ h3
 }
 
 @keyframes revealingIn {
-
   0% {
     width: 0;
   }
-
   100% {
     width: 100%;
   }
 }
 
 @keyframes revealingOut {
-
   0% {
     transform: translateX(0);
   }
-
   100% {
     transform: translateX(100%);
   }
 }
+ 
+
+header h1,h2,.block-reveal{
+  font-size: 20px;
+}
+
+.abs-site-link {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  color: hsla(0, 0%, 0%, .6);
+  font-size: 1px;
+}
+
 
   main{
     grid-area: main;
